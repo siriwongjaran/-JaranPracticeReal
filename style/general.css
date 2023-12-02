@@ -1,0 +1,17 @@
+p{
+    margin-top: 0px; 
+    margin-bottom: 0px;
+    line-height: 25px;
+}
+body{
+    font-family: Roboto;  
+    margin: 0px;
+    padding-top: 80px;
+    padding-left: 92px;
+    background-color:rgb(247, 244, 244);
+}
+@media (min-width: 1200.1px) {
+    body {
+      margin-left: 168px;
+    }
+  }

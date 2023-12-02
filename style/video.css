@@ -1,0 +1,91 @@
+
+.mainDiv{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 40px;        
+}
+@media (max-width: 750px) {
+    .mainDiv {
+       grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 751px) and (max-width:999) {
+    .mainDiv {
+       grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 1000px) {
+    .mainDiv {
+       grid-template-columns: 1fr 1fr 1fr ;
+    }
+}
+
+
+.paragrap{
+    width: 350px;
+    display: grid;
+    row-gap: 8px;
+}
+
+.section1{
+}
+.maind-proto{
+    width: 350px;
+    position: relative;
+}
+.proto{
+    width: 350px;
+}
+.video-time{
+    position: absolute;
+    right: 5px;
+    bottom: 10px;
+    color: white;
+    background-color: black;
+    font-size: 12px;
+    font-weight: bolder;
+    padding: 4px 8px;
+}
+
+
+.section2{
+    display: flex;
+    grid-template-columns: 50px 1fr ;   
+}
+.row1{ 
+    margin-right: 15px;
+}
+.logo{
+    width: 40px;
+    border-radius: 40px;
+}
+.row2{
+}
+.text{
+    margin-bottom: 18px;
+    font-weight: bold;
+}
+.Youtubename{
+    color: rgb(96, 96, 96);
+    font-size: 15px;
+}
+.views{
+    color: rgb(96, 96, 96);
+    font-size: 15px;
+}
+@media (min-width: 1000px) {
+    .text {
+      font-size: 20px;
+      line-height: 24px;
+    }
+  }
+  
+  @media (min-width: 1000px) {
+    .Youtubename,
+    .views {
+      font-size: 18px;
+    }
+  }
